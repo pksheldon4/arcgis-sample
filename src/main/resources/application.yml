@@ -4,8 +4,8 @@ spring:
     properties:
       hibernate:
         globally_quoted_identifiers: true
-        format_sql: true
-  datasource:
+        format_sql: false
+#  datasource:
     # Uses a file based H2 Database which survives restarts.
     # You can view this DB using http://localhost:8080/h2-console/
-    url: jdbc:h2:file:~/sampledb
+#    url: jdbc:h2:file:~/sampledb
